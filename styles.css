@@ -1,0 +1,14 @@
+body {
+  background-color: #282828;
+  font-family: 'DejaVu Sans';
+  text-align: center;
+}
+h1 {
+  color: #d65d0e;
+  font-size: 240%;
+}
+p {
+  color: #ebdbb2;
+  font-size: 130%;
+}
+
