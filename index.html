@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <title>yatin l.</title>
+    <meta name="description" content="personal website" />
+    <meta name="author" content="yatin l." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <div class="menu" onclick="toggleSubmenu()">File</div>
+      <div class="submenu" id="fileMenu">
+        <button onclick="spawnWindow('text')">Open Text Window</button>
+        <button onclick="spawnWindow('image')">Open Image Window</button>
+      </div>
+    </div>
 
-<h1>Yatin Lala</h1>
-
-<img src="tree.png" alt="Pretty Tree" width="480" height="480">
-<!-- <p>I'm still working on adding some content — hopefully there will be some cool -->
-<!-- stuff up here in the future.</p> --> 
-<!-- <p>In the meantime, here's where you can find me on elsewhere on the net:</p> --> 
-
-<p></p>
-<a href="https://github.com/yatinlala">
-  <img src="github.png" alt="GitHub" style="width:64px;height:64px;">
-</a>
-<a href="https://www.linkedin.com/in/yatin-lala-b14a6818a">
-  <img src="linkedin.png" alt="Linkedin" style="width:64px;height:64px;">
-</a>
-
-
-</body>
+    <div id="crt-grid"></div>
+    <script src="index.js"></script>
+  </body>
 </html>
